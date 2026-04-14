@@ -1,0 +1,75 @@
+Nesta aula nós recapitulamos todo o conteúdo que cobrimos neste módulo do curso de análise de dados🖥️
+
+✅Começamos o módulo falando sobre os principais conceitos de estatística, aplicando-os na tabela de dados que estamos trabalhando neste curso. 
+
+✅Em seguida nos aprofundamos no tratamento de valores faltantes e outliers. Aprendemos técnicas para identificar e corrigir dados incompletos e atípicos, garantindo que nossas análises sejam precisas e robustas. Também abordamos a importância de calcular intervalos de confiança e entender a distribuição amostral, permitindo-nos fazer inferências sobre a população com base em amostras.
+
+✅Uma parte essencial do nosso aprendizado foi o feature engineering, onde criamos novas variáveis para enriquecer nossos dados e facilitar a análise. Transformamos dados brutos em informações valiosas, o que é crucial para melhorar a performance dos modelos preditivos. Além disso, exploramos a correlação para entender as relações entre variáveis, uma habilidade vital para identificar padrões e insights nos dados.
+
+Claro! Vou resumir as principais opções e mostrar um **exemplo de código em Python** para cada caso:
+
+---
+
+## 📊 Valores discrepantes (outliers)
+
+**Opções principais:**
+- Remover
+- Transformar
+- Winsorizar
+- Usar modelos robustos
+
+**Exemplo: Remoção de outliers com base no desvio padrão**
+```python
+import numpy as np
+import pandas as pd
+
+# Exemplo de dados
+dados = pd.DataFrame({"valores": [10, 12, 11, 13, 100, 9, 12, 11]})
+
+# Critério: valores fora de 2 desvios padrão
+media = dados["valores"].mean()
+desvio = dados["valores"].std()
+
+dados_filtrados = dados[(dados["valores"] > media - 2*desvio) & 
+                        (dados["valores"] < media + 2*desvio)]
+
+print(dados_filtrados)
+```
+
+---
+
+## 📉 Valores faltantes (missing values)
+
+**Opções principais:**
+- Remover linhas/colunas
+- Imputação simples (média, mediana, moda)
+- Imputação avançada (KNN, regressão, múltipla imputação)
+- Usar modelos que lidam com missing
+
+**Exemplo: Imputação com a média**
+```python
+import pandas as pd
+import numpy as np
+
+# Exemplo de dados com valores faltantes
+dados = pd.DataFrame({"idade": [25, np.nan, 30, 28, np.nan, 35]})
+
+# Substituir NaN pela média
+dados["idade"].fillna(dados["idade"].mean(), inplace=True)
+
+print(dados)
+```
+➡️Quais os tipos de bancos de dados que existem e para que servem cada um? ️
+
+Bancos de dados relacionais:
+
+Estrutura bem definida e tabelas com relações entre si.
+Ideal para dados estruturados e relacionamentos complexos.
+Exemplos de banco: mySQL, PostgreSQL, Oracle
+Exemplos de usos: WordPress, Drupal, Shopify, Magento.
+Bancos de dados não relacionais:
+
+Estrutura mais flexível e podem lidar com dados não estruturados.
+Ideal para grandes volumes de dados não estruturados e alta escalabilidade.
+Exemplos de banco: MongoDB, Cassandra, Redis
+Exemplos de uso: Facebook, Twitter, jogos online e móveis.
