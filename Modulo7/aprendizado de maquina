@@ -1,0 +1,21 @@
+Nesta aula, exploramos o campo do Machine Learning (Aprendizado de Máquina), uma subárea da inteligência artificial que capacita os computadores a aprenderem padrões a partir de dados, sem serem explicitamente programados. 
+
+Discutimos diferentes tipos de algoritmos de aprendizado de máquina, como os supervisionados, não supervisionados, semi-supervisionados e por reforço🖥️
+
+➡️Supervisionado: Um exemplo cotidiano é um algoritmo de recomendação de filmes, que aprende com dados de usuários (classificados como "gostei" ou "não gostei") para sugerir filmes similares.
+
+➡️Não supervisionado: Um exemplo seria a segmentação de clientes em grupos com base em seus padrões de compra, sem rótulos prévios.
+
+➡️Semi-supervisionado: Uma aplicação é a classificação de e-mails como spam ou não spam, onde apenas alguns e-mails são rotulados inicialmente, mas o algoritmo pode aprender com os padrões presentes nos dados.
+
+➡️Por reforço: Pode ser exemplificado por um algoritmo que aprende a jogar xadrez, recebendo feedback positivo ou negativo com base nas jogadas.
+
+Além disso, destacamos a diferença entre regressão e classificação:
+
+➡️Regressão: Prevê valores contínuos. Por exemplo, prever o preço de uma casa com base em suas características, como tamanho, localização, número de quartos, etc.
+
+➡️Classificação: Prevê classes ou categorias discretas. Um exemplo seria classificar e-mails como spam ou não spam, com base em seus atributos.
+
+💭Propusemos um modelo de regressão simples neste módulo, e aprendemos que a regressão é um método estatístico usado para modelar a relação entre uma ou mais variáveis independentes e uma variável dependente. Um exemplo cotidiano disso seria prever a quantidade de vendas de um produto com base no seu preço e nas despesas com publicidade.
+
+💭Finalizamos a aula observando o fluxo de modelagem do modelo de regressão, entendendo que já fizemos a parte da análise dos dados em outros módulos, mas que estamos trabalhando agora na parte de pré-processamento dos dados, antes de seguir para o treinamento do modelo. 

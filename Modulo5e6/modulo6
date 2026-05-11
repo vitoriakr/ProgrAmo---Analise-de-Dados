@@ -1,0 +1,100 @@
+------6.4 - Ferramentas de visualização de dados
+
+Agora chegamos na etapa mais divertida desse curso, estava ansiosa para esse momento. Não que as outras não fossem, mas dashboards são muito divertidos😍
+
+Dashboards são painéis interativos que agregam gráficos e visualizações de dados em um único ambiente.
+
+Facilitam a interpretação e tomada de decisões através de filtros, seleções e controles interativos.
+
+Permitem visualizar diferentes aspectos dos dados em tempo real.
+
+São ferramentas essenciais para análises complexas e multifacetadas.
+
+É como se estivéssemos contando uma história, porém além de usar só palavras estamos usando gráficos, números, tabelas, dados! É um gibi de dados. E como em qualquer história, a ordem das informações é importante para que ela faça sentido.
+
+➡️Benefícios dos Dashboards:
+
+Visão geral completa: Reúnem diversas informações em um único local, facilitando a compreensão das relações entre os dados.
+
+Análise interativa: Permitem explorar os dados em tempo real, filtrando, selecionando e ajustando visualizações.
+
+Tomada de decisões mais rápida: Facilitam a identificação de padrões, tendências e insights acionáveis.
+
+Comunicação eficaz: Transmitem informações de forma clara, concisa e visualmente atraente.
+
+➡️Ferramentas para Criação de Dashboards:
+
+Power BI: Ampla variedade de fontes de dados, visualizações interativas, ferramentas de limpeza e transformação de dados.
+
+Tableau: Reconhecida pela facilidade de uso e poder de análise visual.
+
+Qlik Sense: Combina visualização de dados com recursos avançados de análise.
+
+Looker: Plataforma de inteligência de negócios baseada na nuvem, com foco na exploração, visualização e análise de dados de forma intuitiva e colaborativa.
+
+📌Nesta aula utilizaremos o Looker, por oferecer uma versão gratuita bem completa e online que podemos explorar.
+
+--------6.5 - Elaborando o rascunho do nosso dashboard
+
+
+
+Componentes Essenciais do Storytelling com Dados:
+
+Estabelecer um cenário: Resumo do contexto dos dados.
+
+Narrativa coerente: Clareza sobre o que está sendo analisado.
+
+Visualizações eficazes e claras: Gráficos e tabelas que facilitam a interpretação.
+
+➡️Desenvolvimento do Esboço do Dashboard:
+
+Página Inicial:
+
+Título: Deve ser claro e indicar que se trata de uma análise da diversidade na área de TI.
+
+Resumo: Breve descrição dos dados e da análise.
+
+Informações Gerais:
+
+Número total de entrevistados.
+
+Número de mulheres.
+
+Número de pessoas não brancas.
+
+Número de PCDs.
+
+Número de pessoas fora de SP.
+
+Gráficos Gerais:
+
+Gênero x Etnia.
+
+Distribuição de pessoas por estados no Brasil (mapa).
+
+➡️Páginas Detalhadas:
+
+Gênero:
+
+Relação entre gênero, etnia, escolaridade, salário e senioridade.
+
+Etnia:
+
+Relação entre etnia, escolaridade, salário e senioridade.
+
+➡️Observações:
+
+O esboço é apenas um ponto de partida e pode ser modificado durante o processo de desenvolvimento.
+
+É importante considerar as necessidades dos usuários e os objetivos do dashboard ao tomar decisões de design.
+
+O storytelling com dados deve ser utilizado para comunicar a história dos dados de forma clara, concisa e envolvente.
+
+➡️Lembre-se:
+
+Um bom dashboard deve contar uma história clara e fornecer insights acionáveis aos usuários.
+
+O storytelling com dados é uma ferramenta poderosa para comunicar informações complexas de forma eficaz.
+
+É importante investir tempo no planejamento e no design do dashboard para garantir que ele atenda às suas necessidades e às dos seus usuários.
+
